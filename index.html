@@ -1,77 +1,210 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing page elegante con fondo fijo y desplazamiento interactivo.">
-    <link href="styles.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page elegante con fondo fijo y desplazamiento interactivo."
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <title>Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Encabezado con navegación -->
     <header>
-        <h1>Explora la Elegancia</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-		<li><a href="#precios">Precios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div><img src="Logo.jpg" alt="Logo" width="100px" /></div>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Contenido principal -->
     <main>
-        <section id="inicio">
-            <h2>Bienvenidos</h2>
-            <p>Vive una experiencia única, donde la comodidad y la innovación se encuentran.</p>
-        </section>
+      <section id="inicio">
+        <div class="inicio"><img src="Inicio.jpg" alt="Imagen" /></div>
+        <div class="inicio">
+          <h2>GRUAS MAQUINAS Y TRANSPORTES</h2>
+          <h3>MAQUINARIA PESADA</h3>
+          <p>
+            Conozca nuestros recursos de seguridad gratuitos de Caterpillar, 
+            incluidos los servicios de consultoría y formación en seguridad, para técnicos, 
+            operadores y otros trabajadores de los centros de trabajo.
+          </p>
+        </div>
+      </section>
 
-        <section id="sobre-nosotros">
-            <h2>Sobre Nosotros</h2>
+      <section id="sobre-nosotros">
+        <div class="nosotros">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Somos una empresa de gran potencial, diseñados para realizar trabajos intensivos 
+            que no pueden ser hechos por humanos o vehículos normales, como excavar, cargar, 
+            compactar o demoler grandes cantidades de material. Se utilizan comúnmente en industrias 
+            como la construcción, minería, agricultura y obras públicas
+            
+ <br />
+            <br />
+           
+          </p>
+        </div>
+
+        <div class="nosotros">
+          <img src="Imagen1.jpg" alt="Imagen" width="1000px" />
+        </div>
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios</h2>
+
+        <div class="servicios2">
+          <div class="tarjetas">
+            <div>
+              <h3>PROYECTOS</h3>
+              <p>
+                La organización de Proyectos Globales abarca los cinco centros de aplicaciones 
+                ubicados en América del Norte, América del Sur, Europa, China y la India.
+                Más rápidos, más eficientes, con una mejor ergonomía, con menos fallos,
+                más seguros y con mayor ahorro. No solo aquí, sino en todo el mundo
+</p>
+              
+            </div>
+
+            <div><img src="Imagen2.jpg" alt="Imagen" /></div>
+          </div>
+
+          <div class="tarjetas">
+            <div>
+              <h3>ALQUILER</h3>
+              <p>
+                Para alquilar maquinaria pesada en , CONTACTA CON NOSOTROS. Ten claros los requisitos como 
+                el tipo de equipo y duración,
+                 además de necesitar documentación oficial identificación, comprobante de domicilio,
+              </p>
+            </div>
+            <div><img src="Imagen2.jpg" alt="Imagen" /></div>
+          </div>
+        </div>
+
+        <div class="servicios2">
+        <div  class="tarjetas"></div>
+          <div>
+            <h3>TECNOLOGIA</h3>
             <p>
-                Nos apasiona crear espacios que inspiren, con diseños exclusivos y servicios personalizados.
+             Una de las tendencias tecnológicas más importantes en la industria de la maquinaria 
+             pesada es la automatización y el control remoto. 
+             Los fabricantes están desarrollando máquinas que pueden operarse de forma autónoma o remota
             </p>
-        </section>
+          </div>
+           <div><img src="Imagen3.jpg" alt="Imagen"></div>
+        </div>
 
-        <section id="servicios">
-            <h2>Servicios</h2>
-            <ul>
-                <li>Estilo y lujo en cada detalle.</li>
-                <li>Espacios diseñados para relajarse.</li>
-                <li>Atención personalizada 24/7.</li>
-            </ul>
-        </section>
+        <div class="tarjetas"></div>
+         <div><h3>DESPLAZAMIENTO</h3>
+            <p>
+               Diseñamos el mejor movimiento. tierra, agua, las maquinas
+                mejoradas para todo tipo de eventos . trabajos de petróleo y embarcaciones  
+            </p>
+              </div>
+               <div><img src="Imagen5.jpg" alt="Imagen"></div>
+           </div>
+        </div>
 
-	<section id="precios">
-            <h2>Precios</h2>
-            <ul>
-                <li>Precio base espacios acogedores.</li>
-                <li>Precio intermedio espacios de negocios.</li>
-                <li>Precio para los Espacios de lujo.</li>
-            </ul>
-        </section>
+      </section>
 
-        <section id="contacto">
-       		<div class="form-container">
-        		<h2>Contáctanos</h2>
-        		<form action="#" method="post">
-            			<input type="text" name="nombre" placeholder="Nombre completo" required>
-            			<input type="email" name="email" placeholder="Correo electrónico" required>
-            			<textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-            			<button type="submit">Enviar</button>
-        		</form>
-    		</div>
-        </section>
+      <section id="precios">
+       <h2>Precios</h2>
+        
+            <div class="planes">
+                <div class="precios">
+                    <img src="plan2.jpg" alt="Imagen" width="150px">
+                    <h3>VOLQUETAS</h3>
+                    <h4>$150.000 X HORA COP</h4>
+                    <p>
+                        Se entrega volquete con hoja de vida y controles 
+                        verificados y certicados. <br>
+                        La empresa lleva la maquina al sitio, debe informar si tiene 
+                        operario con su cursos aprobados <br>
+                        <br>
+                        Ideal para pequeños negocios
+                    </p>
+                </div>
+
+                <div class="precios">
+                    <img src="plan1.jpg" alt="Imagen" width="200px">
+                    <h3>GRUAS PEQUEÑAS</h3>
+                    <h4>$300.000  x HORA COP</h4>
+                    <p>
+                        mayor numero de toneladas <br>
+                        Proyectos Gigantes <br>
+                        Alistamiento del Area <br>
+                        acompañamiento <br>
+                        certificaciones <br>
+                        <br>
+                        Grandes Proyectos
+                    </p>
+                </div>
+
+                <div class="precios">
+                    <img src="plan3.jpg" alt="Imagen" width="350px">
+                    <h3>SUPER GRUAS</h3>
+                    <h4>$1.600.000 X HORA COP</h4>
+                    <p>
+                        Tienda online completa <br>
+                       Acompañamiento con mas maquinas <br>
+                        personal autorizado y monitoreo general <br>
+                        Mantenimientos Periodicos <br>
+                        visor totla de manejo<br>
+                        <br>
+                        Industrial
+                    </p>
+                </div>
+            </div>
+      </section>
+
+      <section id="contacto">
+        <div class="form-container">
+          <h2>Contáctanos</h2>
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Nombre completo"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo electrónico"
+              required
+            />
+            <textarea
+              name="mensaje"
+              rows="5"
+              placeholder="Escribe tu mensaje aquí..."
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Elegancia. Todos los derech <!-- Carga el archivo Javascript para suavizar el desplazamiento al dar click en el menu -->os reservados.</p>
+      <p>
+        &copy; 2024 Elegancia. Todos los derech
+        <!-- Carga el archivo Javascript para suavizar el desplazamiento al dar click en el menu -->os
+        reservados.
+      </p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
